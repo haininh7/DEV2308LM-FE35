@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEVMASTER FE</title>
+</head>
+  <body>
+      <pre>
+          I, Giới thiệu FE
+          II, Khởi động với HTML
+
+                1, Tạo file html
+                    tên_file   .   html :  lưu ý tên file không - chứa tí tự đặc biệt
+                                                                - bắt đâù bằn số
+                                                        hạn chế chưa dấu cách
+                2, Cấu trúc của 1 trang html
+                    - 2 phần: head: chứa các thẻ meta, thẻ link, thẻ scripts (các thẻ nội dung nhúng vào trang web)
+                              body: hiển thị toàn bộ nội dung bằng mắt nhìn của người dùng thông qua các element
+                                    cũng có thể chứa các thẻ link, thẻ scripts... 
+                    *) các element đa số yêu cầu cặp thẻ đóng mở trừ một số thẻ đặc biệt:img, input, hr, br,...   
+                    
+                3, Làm quen với các element cụ thể
+                        - hiển thị nội dung văn bản: p /text, span,...
+                        - hiển thị tiêu đề: h1, h2 ,h3, h4, h5, h6
+                        - hiển thị đường kẻ: hr
+                        - thẻ xuống dòng: br
+                        - thẻ danh sách : ul - li, ol - li,...
+                        - định dạng văn bản: văn bản in đậm - thẻ b
+                                             văn bản in nghiêng - thẻ i
+                                             văn bản gạch chân - thẻ u
+                        - thẻ hiển thị hình ảnh:
+                           +, tên element: img (không có thẻ đóng)  
+                           +, một sô thuộc tính quan trọng: 
+                                       - src: địa chỉ hình ảnh cần được hiển thị
+                                       - alt: hiển thị tên ảnh trong trường hợp không biểu diễn được hình ảnh 
+                        - thẻ dẫn đường liên kết:  
+                           +, tên element: a
+                           +, 1 số thuộc tính cần lưu ý:
+                                       - href: giá trị <=> url cần điều hướng
+                                       - title: hiển thi ghi chú cho thẻ a
+                                       - target: tạo tab mới hay ở tab hiện tại 
+                4,kết hợp các element để giải quyết bài toán
+                    Kết hợp các element: danh sách, liên kết, nội dung/hình ảnh,...                                       
+      </pre>
+
+      <hr>
+
+      <h2>BT1: luyên tập sử dụng các element đầu tiên</h2>
+      <p>
+          <h1>Lorem Ipsum là gì?</h1>
+          
+           <u> Thật ra </u>, <b>Lorem Ipsum</b> <i>chỉ là một đoạn văn bản giả, mẫu, mang nhiều <br> ý nghĩa về mặt thị
+            giác và hoàn toàn vô nghĩa, được vào việc
+            trình bày <br> và dàn trang in, thiết kế web mẫu (nôm na như ma-nơ-canh đứng vận <br> quần áo mẫu cho người ta xem hàng ấy mà).</i>
+            
+          
+      </p>
+      <img src="https://tse1.mm.bing.net/th?id=OIP.nk6DT61sOdzM4NJOX1RU2QHaEK&pid=Api&P=0&h=180" alt="">
+
+        <h2>BT2: luyện tập sử dụng thẻ danh sách (ul-li/ol-il)</h2>
+         <ul>
+            <li>Trang chủ</li>
+            <li>Sản phẩm</li>
+            <li>Dịch vụ</li>
+            <li>Liên hệ</li>
+         </ul>
+        <h3>Thực hành</h3>
+         <b>Thẻ đanh sách ul,li</b> 
+         <ul>
+            <li>lập trình web với html</li>
+            <li>học html co ban</li>
+            <li>học css co ban</li>
+            <li>học java scripts</li>
+            <li>thư viện jquery</li>
+            <li>thư viện Resposiven</li>
+        </ul>
+        <h4>Thứ sức với dl-dt-dd</h4>
+        <dl>
+             <dt>MỤC I</dt>
+                 <dd>Mục 1.1</dd>   
+                 <dd>Mục 1.2</dd>
+             <dt>Mục II</dt>    
+                 <dd>Mục 2.1</dd>
+                 <dd>Mục 2.2</dd>
+        </dl>
+        <h4>Thẻ img</h4>
+        <img src="../images/fc_barcelona_vlag_0.jpg" alt="">
+        <h4>thẻ a</h4>
+        <a href="https://www.youtube.com/">xem yt</a>
+        <h2>Cách mạng công nghiệp 4.0 </h2>
+        <p>
+            Cuộc cách mạng công nghiệp 4.0 được đánh số 4.0 chính vì trước đây đã có 3 cuộc cách mạng <br> tương tự từng diễn ra: Cuộc cách mạng công nghiệp lần thứ nhất (từ 1784) xảy ra khi loài người <br> phát minh động cơ hơi nước, mở ra một kỷ nguyên mới trong lịch sử nhân loại; Cuộc cách mạng <br> công nghiệp lần thứ hai (từ 1870) khi loài người phát minh ra động cơ điện, mang lại cuộc sống <br> văn minh hơn; Cuộc cách mạng công nghiệp lần thứ ba (từ 1969) xuất hiện khi con người phát <br> minh ra bóng bán dẫn, điện tử. Vệ tinh, máy bay, máy tính, điện thoại, Internet… là những công nghệ <br> chúng ta có được nhờ cuộc cách mạng này.
+        </p>
+        <img src="../images/fc_barcelona_vlag_0.jpg" alt="">
+          <ul>
+             <li>
+                <a href="https://www.youtube.com/" target="_blank">Trang chủ</a>
+            </li>
+             <li>
+                <a href="https://www.youtube.com/" target="_blank">Giới thiệu</a> 
+            </li>
+             <li>
+                <a href="https://tse2.mm.bing.net/th?id=OIP.0wT9G5DuJo_YqBuxbRowPgHaHa&pid=Api&P=0&h=180" target ="_blank">Sản phẩm</a>
+            </li>
+             <li>
+                <a href="https://tse2.mm.bing.net/th?id=OIP.0wT9G5DuJo_YqBuxbRowPgHaHa&pid=Api&P=0&h=180" target="_blank">Liên hệ</a>
+            </li>
+             <li>
+                <a href="https://tse2.mm.bing.net/th?id=OIP.0wT9G5DuJo_YqBuxbRowPgHaHa&pid=Api&P=0&h=180" target="_blank">Dịch vụ</a>
+            </li>
+          </ul>   
+  </body>
+</html>
+
