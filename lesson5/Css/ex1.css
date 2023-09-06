@@ -1,0 +1,26 @@
+
+footer{
+    height: 500px;
+    width: 1500px;
+    background-color: red;
+}
+
+.header{
+    background-color: brown;
+}
+
+#header{
+    background-color: rgb(red, green, blue);
+}
+
+[data-attr="header"] {
+    background-color: rgba(88, 112, 160, 0.764);
+}
+
+#header{
+    background-color: rgb(red, green, blue);
+}
+
+html .demo section{
+    color: blue !important;
+}

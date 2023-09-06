@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.option{
+    display: flex;
+    border-radius: 5px;
+    background-color: rgb(3, 16, 26);
+    
+}
+
+.option .nd{
+    padding: 5px 20px;
+    border-right: 1px solid;
+}
+
+.option1{
+    color: rgb(87, 87, 130);
+}
+
+.option4{
+    border-right: 0;        
+}
