@@ -25,6 +25,23 @@
     border-right: 0;
  }
   
- .tieude .tieude-menu :hover a{
+ .tieude .tieude-menu:hover a{
       color: red;
+ }
+ .mega-menu{
+    position: absolute;
+    background-color: rgb(65, 148, 44);
+    top: 100%;
+    left: 0;
+    display: none;
+
+ }
+ .tieude-menu{
+    position: relative;
+ }
+ .tieude > .tieude-menu:hover .mega-menu{
+    display: block;
+ }
+ .tieude2 .tieude-menu:hover a{
+     color: black;
  }

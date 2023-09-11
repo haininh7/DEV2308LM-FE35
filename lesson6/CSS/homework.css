@@ -1,0 +1,114 @@
+*{
+    
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}   
+.test-1{
+    
+    width: 100%;
+    background-color: darkblue;
+    display: flex;
+}
+ .option{
+    padding: 10px 20px;
+    border-right: 1px solid;
+    
+}
+.mega-menu {
+    
+    background-color: darkmagenta;
+    display: none;
+    width: 100px;
+    position: absolute;
+    top: 6%;
+    left: 7%;
+    
+}
+.option:hover .mega-menu{
+    display: block;
+} 
+.test-option{
+    display: flex;
+}
+.logo img{
+    width: auto;
+    height: 40px;
+}
+.mega-menu-2 {
+    
+    background-color: darkmagenta;
+    display: none;
+    width: 100px;
+    position: absolute;
+    top: 6%;
+    left: 15%;
+    
+}
+.option:hover .mega-menu-2{
+    display: block;
+}
+.mega-mega-menu{
+    
+    background-color: black;
+    display: none;
+    width: 200px;
+    position: absolute;
+    top: 0;
+    left: 100%; 
+}
+.option:hover > .mega-mega-menu{
+    display: block;
+}
+
+.mega-mega-menu-2{
+    
+    background-color: green;
+    display: none;
+    width: 200px;
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+.option:hover > .mega-mega-menu-2{
+    display: block;
+}
+.banner img{
+width: 100%;
+}
+.giay{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.aca-14{
+    width: 130px;
+    height: 155px;
+    margin-left: -50px;
+}
+.pro-15{
+    width: 63%;
+margin-top: 42px;
+margin-left: -18px;
+}
+.gia-3{
+    margin-top: 32px;
+    margin-left: 20px;
+}
+.gia-4{
+    margin-top: 25px;
+    margin-left: -27px;
+}
+.pro-13{
+    width: 78%;
+    margin-top: 39px;
+}
+.pro-14{
+    margin-left: -56px;
+}
+.gia-1{
+    margin-left: 25px;
+}
+
+

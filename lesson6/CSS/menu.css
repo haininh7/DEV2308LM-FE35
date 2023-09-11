@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.menu-cap-1{
+     background-color: grey;
+     width: 100%;
+     display: flex;
+}
+.option{
+    padding: 10px 20px;
+    font-size: 20px;
+    position: relative;
+}
+.option:hover{
+    background-color: blue;
+}
+.option:hover .link{
+    color: greenyellow;
+}
+.menu-cap-2{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: aqua;
+    width: 100px;
+    display: none;
+}
+.option:hover .menu-cap-2{
+    display: block;
+}
+.menu-cap-3{
+    position: absolute;
+    left: 100%;
+    top: 0;
+    background-color: brown;
+    width: 200px;
+    display: none;
+}
+.option:hover > .menu-cap-3{
+    display: block;
+}
+.d-flex{
+    display: flex;
+}
+.logo img{
+   width: auto;
+   height: 50px;
+}
+.banner img{
+    width: 100%;
+}
+.dongho{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
