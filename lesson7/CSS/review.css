@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+     color: #fff; 
+
+}
+ 
+.tieude{
+    display: flex;
+    background-color: rgb(8, 43, 43);
+    border-radius: 5px ;
+    width: 100%;
+
+}
+ .tieude .tieude-menu{
+    padding: 8px 20px;
+    border-right: 1px solid;
+ }
+ .c-blue{
+    color: blue;
+ }
+ .tieude .tieude-menu:last-child{
+    border-right: 0;
+ }
+  
+ .tieude .tieude-menu:hover a{
+      color: red;
+ }
+ .mega-menu{
+    position: absolute;
+    background-color: rgb(65, 148, 44);
+    top: 100%;
+    left: 0;
+    display: none;
+
+ }
+ .tieude-menu{
+    position: relative;
+ }
+ .tieude > .tieude-menu:hover .mega-menu{
+    display: block;
+ }
+ .tieude2 .tieude-menu:hover a{
+     color: black;
+ }

@@ -1,0 +1,55 @@
+html{
+    font-size: 20px;
+}
+.card-content{
+    position: relative;
+}
+.add-card{
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    opacity: 1;
+    display: none;
+}
+.add-card button{
+    width: 100%;
+    padding: 10px;
+    
+}
+@keyframes showBtn {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+.edit:hover .add-card{
+    animation: showBtn 10s;
+    display: block;
+}
+.giam{
+    border-radius: 10px;
+    background-color: red;
+    width: 30px;
+    padding: 10px;
+    text-align: center;
+}
+.giam-gia{
+  top: 100%;
+  left: 0;
+}
+.edit{
+    width: 22% !important;
+}
+.dongho .clock-1{
+    width: 22%;
+}
+
+@media only screen and (max-width: 500px) {
+    .dongho .clock{
+        width: 45% !important;
+    }
+}
+
+/* đơn vị trong css: rem em
+quy ước: tất cả các giá trị rem/em đều được đưa về px
+         1rem = value(font-size) trong element html
+         1em = value(font-size) trong html cha */
