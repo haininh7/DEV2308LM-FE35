@@ -358,3 +358,5 @@ if(!tempProduct) console.log("no data");
 
 //lưu ý về biến:
 //phạm vi của biến: local-global: cục bộ -toàn cục
+
+
