@@ -2,7 +2,7 @@ var listItems = [
     {
         id: 1,
         name : "sản phẩm 1",
-        img : "https://devmaster.edu.vn/uploads/images/devmaster-campaign/devmaster-lap-trinh-asp-net-mvc-5-webapi-angularjs.jpg",
+        img : "https://image.donghohaitrieu.com/wp-content/uploads/2023/09/T006.407.16.033.00-1.jpg",
         content : "test master html css",
         price : 1000000,
         status : "true",
@@ -12,7 +12,7 @@ var listItems = [
     {
         id: 2,
         name : "sản phẩm 2",
-        img : "https://devmaster.edu.vn/uploads/images/devmaster-campaign/devmaster-lap-trinh-asp-net-mvc-5-webapi-angularjs.jpg",
+        img : "https://image.donghohaitrieu.com/wp-content/uploads/2023/09/37_D173TCM.jpg",
         content : "test master html css",
         price : 2000000,
         status : "false",
@@ -22,7 +22,7 @@ var listItems = [
     {
         id: 3,
         name : "sản phẩm 3",
-        img : "https://devmaster.edu.vn/uploads/images/devmaster-campaign/devmaster-lap-trinh-asp-net-mvc-5-webapi-angularjs.jpg",
+        img : "https://image.donghohaitrieu.com/wp-content/uploads/2023/09/71836-SVWHBL-2-3.jpg",
         content : "test master html css",
          price : 3000000,
          status : "false",
@@ -32,7 +32,7 @@ var listItems = [
     {
         id: 4,
         name : "sản phẩm 4",
-        img : "https://devmaster.edu.vn/uploads/images/devmaster-campaign/devmaster-lap-trinh-asp-net-mvc-5-webapi-angularjs.jpg",
+        img : "https://image.donghohaitrieu.com/wp-content/uploads/2023/09/K001.103.642.05.01-1.jpg",
         content : "test master html css",
         price : 4000000,
         status : "true",
@@ -42,7 +42,7 @@ var listItems = [
     {
         id: 5,
         name : "sản phẩm 5",
-        img : "https://devmaster.edu.vn/uploads/images/devmaster-campaign/devmaster-lap-trinh-asp-net-mvc-5-webapi-angularjs.jpg",
+        img : "https://image.donghohaitrieu.com/wp-content/uploads/2024/01/2-11.jpg",
         content : "test master html css",
         price : 5000000,
         status : "false",
@@ -52,7 +52,7 @@ var listItems = [
     {
         id: 6,
         name : "sản phẩm 6",
-        img : "https://devmaster.edu.vn/uploads/images/devmaster-campaign/devmaster-lap-trinh-asp-net-mvc-5-webapi-angularjs.jpg",
+        img : "https://image.donghohaitrieu.com/wp-content/uploads/2023/09/T058.109.33.456.00.jpg",
         content : "test master html css",
         price : 6000000,
         status : "true",
@@ -62,7 +62,7 @@ var listItems = [
     {
         id: 7,
         name : "sản phẩm 7",
-        img : "https://devmaster.edu.vn/uploads/images/devmaster-campaign/devmaster-lap-trinh-asp-net-mvc-5-webapi-angularjs.jpg",
+        img : "https://image.donghohaitrieu.com/wp-content/uploads/2023/09/NJ0153-82X.jpg",
         content : "test master html css",
         price : 7000000,
         status : "true",
@@ -72,7 +72,7 @@ var listItems = [
     {
         id: 8,
         name : "sản phẩm 8",
-        img : "https://devmaster.edu.vn/uploads/images/devmaster-campaign/devmaster-lap-trinh-asp-net-mvc-5-webapi-angularjs.jpg",
+        img : "https://image.donghohaitrieu.com/wp-content/uploads/2024/05/Titoni-83743-S-682.jpg",
         content : "test master html css",
         price : 8000000,
         status :"true",
